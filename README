@@ -11,7 +11,7 @@ When you have the file unzip it to the same directory as the script.
 
 USAGE
 
-gesturecrack.py -f gesture.key
+python gesturecrack.py -f gesture.key
 
 ISSUES
 Why didn't you do x,y or z?
