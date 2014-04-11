@@ -4,6 +4,7 @@ This is a simple script to find the pattern lock code on an Android Device, it w
 
 It works by opening a gesture.key file supplied using the -f flag and comparing it's contents against a Rainbow Table of Gesture Keys created by Soufiane Tahiri http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
 
+
 USAGE
 
 gesturecrack.py -f gesture.key
