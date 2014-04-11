@@ -13,3 +13,10 @@ USAGE
 
 gesturecrack.py -f gesture.key
 
+ISSUES
+Why didn't you do x,y or z?
+*I'm new to Python
+*I wanted to keep it simple
+
+FUTURE
+I would like to do some GUI stuff in Python at some point so this would probably be the ideal candidate.
