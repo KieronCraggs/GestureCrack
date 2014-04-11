@@ -23,7 +23,7 @@ with db:
     rows = cur.fetchone()
 
     for row in rows:
-    	result = row
+    
     	print """	
 
     	The Lock Pattern code is %s
