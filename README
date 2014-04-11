@@ -2,7 +2,7 @@ README
 
 This is a simple script to find the pattern lock code on an Android Device, it was created for a test on Mobile Forensics which was part of my degree.
 
-It works by opening a gesture.key file supplied using the -f flag and comparing it's contents against a Rainbow Table of Gesture Keys created by Soufiane Tahiri http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
+It works by opening a gesture.key file supplied using the -f flag and comparing it's contents against a Rainbow Table of Gesture Keys http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
 
 You will need to download the Rainbow Table from the above link (For the lazy its: http://www.mediafire.com/download/qs0sq5h8e2ly8jg/SHA1-android-pattern.rar), you will also need a password which is in 12th comment on the same page.
 
