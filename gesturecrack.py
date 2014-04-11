@@ -1,6 +1,6 @@
 #Quick and Easy Android Pattern Lock Cracker - Kieron Craggs 2014
 #This quick script will open a gesture.key file and compare its contents against a rainbow table to find the pattern used to lock the device
-#Uses GestureKey Rainbow Table created by Soufiane Tahiri http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
+#Uses GestureKey Rainbow Table http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
 
 #****MODULES*************#
 import argparse
