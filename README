@@ -2,20 +2,20 @@ README
 
 This is a simple script to find the pattern lock code on an Android Device, it was created for a test on Mobile Forensics which was part of my degree.
 
-It works by opening a gesture.key file supplied using the -f flag and comparing it's contents against a Rainbow Table of Gesture Keys as explained at: http://resources.infosecinstitute.com/android-forensics-cracking-the-pattern-lock-protection/
+It works by opening a gesture.key file supplied using the -f flag or a raw text hash provided by the -r flag which is compared to a rainbow table of all patterns.
 
-You will need to download the Rainbow Table from the above link (For the lazy its: http://www.mediafire.com/download/qs0sq5h8e2ly8jg/SHA1-android-pattern.rar), you will also need a password which is 'www.marw0rm.com'.
-
-When you have the file unzip it to the same directory as the script.
+You do not need to download the rainbow table on its own, simply download the entire repo and run the script.
 
 
 USAGE
 
-python gesturecrack.py -f gesture.key
+python gesturecrack.py -f /path/to/gesture.key
+python gesturecrack.py -r 8e7e00c0bd5ce227f7be204c8b7c159669c776d4
 
 ISSUES
 Why didn't you do x,y or z?
-*I'm new to Python
+*I'm rubbish at Python
+*I didn't have long to do it
 *I wanted to keep it simple
 
 FUTURE
